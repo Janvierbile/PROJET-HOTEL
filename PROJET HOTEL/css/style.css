@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.1 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body
+{
+    font-family:Lato;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Catamaran!important;
+    font-weight:800!important;
+}
+.btn-xl{
+    text-transform:uppercase;padding:1.5rem 3rem;
+    font-size:.9rem;font-weight:700;
+    letter-spacing:.1rem;
+}
+.bg-black{
+    background-color:#000!important;
+}
+.rounded-pill{
+    border-radius:5rem;
+}
+/* NAV */
+.navbar-custom{
+    padding-top:1rem;padding-bottom:1rem;
+    background-color:rgba(0,0,0,.7);
+}
+.navbar-custom .navbar-brand{
+    text-transform:uppercase;
+    font-size:1rem;
+    letter-spacing:.1rem;
+    font-weight:700;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link{
+    text-transform:uppercase;
+    font-size:.8rem;
+    font-weight:700;
+    letter-spacing:.1rem;
+}
+/* HEADER */
+header.masthead{
+    position:relative;
+    overflow:hidden;
+    padding-top:calc(7rem + 72px);
+    padding-bottom:7rem;
+    background:-webkit-gradient(linear,left bottom,left top,from(#ff6a00),to(#ee0979));
+    background:linear-gradient(0deg,#ff6a00 0,#ee0979 100%);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:cover;
+    background-image: url("../img/image4.jpg");
+
+}
+header.masthead .masthead-content{
+    z-index:1;position:relative;
+}
+header.masthead .masthead-content .masthead-heading{
+    font-size:4rem;
+}
+header.masthead .masthead-content .masthead-subheading{
+    font-size:2rem;
+}
+@media (min-width:992px){
+    header.masthead{
+        padding-top:calc(10rem + 55px);
+        padding-bottom:10rem;
+    }
+    header.masthead .masthead-content .masthead-heading{
+        font-size:6rem;
+    }
+    header.masthead .masthead-content .masthead-subheading{
+        font-size:4rem;
+    }
+}
+.bg-primary{
+    background-color:#ee0979!important;
+}
+.btn-primary{
+    background-color:#ee0979;
+    border-color:#ee0979}
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover{
+    background-color:#bd0760!important;
+    border-color:#bd0760!important
+}
+.btn-primary:focus{
+    -webkit-box-shadow:0 0 0 .2rem rgba(238,9,121,.5);
+    box-shadow:0 0 0 .2rem rgba(238,9,121,.5);
+}
+.btn-secondary{
+    background-color:#ff6a00;
+    border-color:#ff6a00;
+}
+.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{
+    background-color:#c50!important;
+    border-color:#c50!important;
+}
+.btn-secondary:focus{
+    -webkit-box-shadow:0 0 0 .2rem rgba(255,106,0,.5);
+    box-shadow:0 0 0 .2rem rgba(255,106,0,.5);
+} 
+/* CONTACT */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom:  1px solid #02b8dd;
+    padding-bottom: 20px; 
+    font-family:Catamaran!important;
+}
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]
+{
+    padding:10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+}
+.button-3:hover
+{
+    color: #fff;
+    background-color: #444;
+}
+
+/* FOOTER */
+
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color:#fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
